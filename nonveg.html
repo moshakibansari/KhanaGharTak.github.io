@@ -1,0 +1,277 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best food delivey in Lucknow</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fastfood.css">
+
+
+</head>
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+
+</style>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg custom-navbar  bg-dark">
+        <a class="navbar-brand title" href="#"><span class="header">KHANA</span><i
+                class="fa home-icon fa-home"></i><span class="header">GHAR</span><i
+                class="fa home-icon fa-home"></i><span class="header">TAK</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item nav-home">
+                    <a class="nav-link nav-home1" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link1 nav-home1" href="#" data-toggle="modal" data-target="#cart"><i
+                            class="fa fa-shopping-cart"></i>Cart<span class="custom-span">(</span><span
+                            class="total-count custom-span"></span><span class="custom-span">)</span></a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#"><button type="button" class="btn btn-light">LogOut</button></a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="container-fluid my-4 banner">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./offerimage1.png" class="banner-image">
+            </div>
+            <div class="col-md-6">
+                <h2 class="banner-heading">Flat 50% OFF</h2>
+                <p class="banner-para">On Frist Order</p>
+                <button type="button" class="btn btn-warning banner-btn">OrderNow</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-md-2 category-box">
+                <ol>
+                    <a class="ff-category" href="#chicken">
+                        <li>Chicken</li>
+                    </a>
+                    <a class="ff-category" href="#mutton">
+                        <li>Mutton</li>
+                    </a>
+                    <a class="ff-category" href="#fish">
+                        <li>Fish</li>
+                    </a>
+
+                </ol>
+            </div>
+            <div class="col-md-10">
+                <h2 class="heading">Non-Veg</h2>
+                <hr>
+                <div class="col-md-2">
+                    <h3 id="nonveg">Chicken</h3>
+                    <hr>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 col-sm-2 fastfood-card">
+                        <img src="./chicken1.jpg" class="card-image">
+                        <h5 class="card-title">Chicken Biryaani(Half)</h5>
+                        <div class="currency"><i class="fa card-icon fa-inr"></i>80</div>
+                        <a href="#" data-name="Chicken_Biryaani(Half)" data-price="80"
+                            class="add-to-cart add-button btn btn-dark card-btn">Add </a>
+                    </div>
+
+                    <div class="col-md-2 col-sm-2 fastfood-card">
+                        <img src="./chicken2.jpg" class="card-image">
+                        <h5 class="card-title">Chicken Masala(Half)</h5>
+                        <div class="currency "><i class="fa card-icon fa-inr"></i>200</div>
+                        <a href="#" data-name="Chicken_Masala(Half)" data-price="200"
+                            class="add-to-cart add-button btn btn-dark card-btn">Add </a>
+                    </div>
+
+                    <div class="col-md-2 fastfood-card">
+                        <img src="./chicken3.jpg" class="card-image">
+                        <h5 class="card-title">Butter Chicken(Half)</h5>
+                        <div class="currency"><i class="fa card-icon fa-inr"></i>280</div>
+                        <a href="#" data-name="Butter_Chicken" data-price="280"
+                            class="add-to-cart add-button btn btn-dark card-btn">Add </a>
+                    </div>
+
+
+                    <div class="col-md-2 fastfood-card">
+                        <img src="./chicken4.jpg" class="card-image">
+                        <h5 class="card-title">Chicken Lollipop(6pcs)</h5>
+                        <div class="currency"><i class="fa card-icon fa-inr"></i>150</div>
+                        <a href="#" data-name="Chicken_Lollipop(6pcs)" data-price="150"
+                            class="add-to-cart add-button btn btn-dark card-btn">Add </a>
+                    </div>
+
+                  
+
+                </div>
+
+
+                <div class="col-md-2 my-4">
+                    <h3 id="mutton">Mutton</h3>
+                    <hr>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2 fastfood-card">
+                        <img src="./mutton1.gif" class="card-image">
+                        <h5 class="card-title">Mutton Biryaani(Half)</h5>
+                        <div class="currency currency1"><i class="fa card-icon fa-inr"></i>150</div>
+                        <a href="#" data-name="Mutton_Biryaani" data-price="150"
+                            class="add-to-cart add-button btn btn-dark card-btn">Add </a>
+                    </div>
+
+                    <div class="col-md-2 fastfood-card">
+                        <img src="./mutton2.jpg" class="card-image">
+                        <h5 class="card-title">Mutton Korma(Half)</h5>
+                        <div class="currency"><i class="fa card-icon fa-inr"></i>155</div>
+                        <a href="#" data-name="Mutton_Korma(Half)" data-price="155"
+                            class="add-to-cart add-button btn btn-dark card-btn">Add </a>
+                    </div>
+
+                    <div class="col-md-2 fastfood-card">
+                        <img src="./mutton3.jpg" class="card-image">
+                        <h5 class="card-title">Mutton Keema Kaleji(Half) </h5>
+                        <div class="currency currency1" style="margin-top: 43px;"><i class="fa card-icon fa-inr"></i>150</div>
+                        <a href="#" data-name="Mutton_Keema_Kaleji(Half)" data-price="150"
+                            class="add-to-cart add-button btn btn-dark card-btn">Add </a>
+                    </div>
+
+
+                    <div class="col-md-2 fastfood-card">
+                        <img src="./mutton4.jpg" class="card-image">
+                        <h5 class="card-title">Mutton Chaap(Half)</h5>
+                        <div class="currency currency1"><i class="fa card-icon fa-inr"></i>160</div>
+                        <a href="#" data-name="Mutton_Chaap" data-price="160"
+                            class="add-to-cart add-button btn btn-dark card-btn">Add </a>
+                    </div>
+
+                  
+
+                </div>
+
+
+
+                <div class="col-md-2 my-4">
+                    <h3 id="fish">Fish</h3>
+                    <hr>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2 fastfood-card">
+                        <img src="./fish1.jpg" class="card-image">
+                        <h5 class="card-title">Boneless Fish fry</h5>
+                        <div class="currency currency1"><i class="fa card-icon fa-inr"></i>250</div>
+                        <a href="#" data-name="Boneless_Fish_fry" data-price="250"
+                            class="add-to-cart add-button btn btn-dark card-btn">Add </a>
+                    </div>
+
+                    <div class="col-md-2 fastfood-card">
+                        <img src="./fish2.jpg" class="card-image">
+                        <h5 class="card-title">Fish Fry withbone</h5>
+                        <div class="currency"><i class="fa card-icon fa-inr"></i>210</div>
+                        <a href="#" data-name="Fish_Fry" data-price="210"
+                            class="add-to-cart add-button btn btn-dark ">Add </a>
+                    </div>
+
+                    <div class="col-md-2 fastfood-card">
+                        <img src="./fish3.jpg" class="card-image">
+                        <h5 class="card-title">Fish Curry </h5>
+                        <div class="currency currency1" style="margin-top: 90px;"><i class="fa card-icon fa-inr"></i>215</div>
+                        <a href="#" data-name="Fish_Curry" data-price="215"
+                            class="add-to-cart add-button btn btn-dark card-btn">Add </a>
+                    </div>
+
+
+                    <div class="col-md-2 fastfood-card">
+                        <img src="./fish4.jpg" class="card-image">
+                        <h5 class="card-title">Fish Fry Boneless</h5>
+                        <div class="currency currency1"><i class="fa card-icon fa-inr"></i>260</div>
+                        <a href="#" data-name="Fish_Curry_Boneless" data-price="260"
+                            class="add-to-cart add-button btn btn-dark card-btn">Add </a>
+                    </div>
+
+                  
+
+                </div>
+
+
+               
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+
+    <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content modal-bg">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="show-cart table">
+
+                    </table>
+                    <div style="font-weight: bold;">Total price: ₹<span class="total-cart"></span></div>
+                </div>
+                <div class="modal-footer">
+                    <button class="clear-cart btn btn-dark">Clear Cart</button>
+                    <button type="button" class="btn btn-warning">OrderNow</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="container-fluid footer-con">
+
+        <p class="float-right"><a class="footer" href="#">Back to top</a></p>
+        <p>© 2020-2021 KhanaGharTak.com <a class="footer" href="#">Privacy</a> · <a class="footer" href="#">Terms</a>
+        </p>
+        <p>Follow Us<a class="footer fa fa-facebook icon1" href="#"></a><a class="footer fa fa-instagram"
+                href="#"></a><a class="footer fa fa-twitter" href="#"></a></p>
+    </footer>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="cart.js"></script>
+
+</body>
